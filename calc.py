@@ -1,16 +1,16 @@
 def calculate(n1,n2,op):
     if op == '+':
-        result = n1+n2
+        return n1+n2
     elif op == '-':
-        result = n1-n2
+        return n1-n2
     elif op == '*':
-        result = n1*n2
+        return n1*n2
     elif op == '/':
-        result = n1/n2
+        return n1/n2
     elif op == '^':
-        result = n1**n2
+        return n1**n2
     else:
-        print('You did not mention it right! Please check again.')
+        return None
 
 
 n1 = int(input('Enter first number: '))
